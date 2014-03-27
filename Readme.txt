@@ -1,0 +1,2 @@
+Supported cmake generators:
+	Xcode
