@@ -25,7 +25,7 @@
 #ifndef MAQXTGLOBALSHORTCUT_H
 #define MAQXTGLOBALSHORTCUT_H
 
-#include "core/maqxtglobal.h"
+#include "maqxt/core/maqxtglobal.h"
 #include <QObject>
 #include <QKeySequence>
 class MAQxtGlobalShortcutPrivate;

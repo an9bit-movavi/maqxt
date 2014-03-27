@@ -27,4 +27,4 @@ add_library(${PROJECT_NAME} SHARED ${sources} ${headers})
 target_link_libraries(${PROJECT_NAME} ${QT_LIBRARIES} ${ext_libs})
 
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
-install(DIRECTORY core gui DESTINATION include FILES_MATCHING PATTERN "*.h" PATTERN "*_p.h" EXCLUDE)
+install(DIRECTORY maqxt DESTINATION include FILES_MATCHING PATTERN "*.h" PATTERN "*_p.h" EXCLUDE)
